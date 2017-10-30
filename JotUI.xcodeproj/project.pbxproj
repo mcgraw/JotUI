@@ -7,6 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0238D0A1FA78CCD006F2A97 /* JotUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F0238D091FA78C43006F2A97 /* JotUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0238D481FA7965B006F2A97 /* NSArray+JotMapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = F070031B1FA780B100D14DF8 /* NSArray+JotMapReduce.m */; };
+		F0238D491FA7965B006F2A97 /* NSMutableArray+RemoveSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = F070031D1FA780B100D14DF8 /* NSMutableArray+RemoveSingle.m */; };
+		F0238D4A1FA7965B006F2A97 /* NSMutableSet+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = F070031F1FA780B100D14DF8 /* NSMutableSet+Extras.m */; };
+		F0238D4B1FA7965B006F2A97 /* UIColor+JotHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003211FA780B100D14DF8 /* UIColor+JotHelper.m */; };
+		F0238D4C1FA7965B006F2A97 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003231FA780B100D14DF8 /* UIImage+Alpha.m */; };
+		F0238D4D1FA7965B006F2A97 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003251FA780B100D14DF8 /* UIImage+Resize.m */; };
+		F0238D4E1FA7965B006F2A97 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003271FA780B100D14DF8 /* UIImage+RoundedCorner.m */; };
+		F0238D4F1FA7965B006F2A97 /* UIScreen+PortraitBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003291FA780B100D14DF8 /* UIScreen+PortraitBounds.m */; };
+		F0238D501FA7965B006F2A97 /* JotBrushTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F070032E1FA780B100D14DF8 /* JotBrushTexture.m */; };
+		F0238D511FA7965B006F2A97 /* JotDefaultBrushTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003301FA780B100D14DF8 /* JotDefaultBrushTexture.m */; };
+		F0238D521FA7965B006F2A97 /* JotHighlighterBrushTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003321FA780B100D14DF8 /* JotHighlighterBrushTexture.m */; };
+		F0238D531FA7965B006F2A97 /* JotSharedBrushTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003341FA780B100D14DF8 /* JotSharedBrushTexture.m */; };
+		F0238D541FA7965B006F2A97 /* UIImage+BrushTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003361FA780B100D14DF8 /* UIImage+BrushTextures.m */; };
+		F0238D551FA7965B006F2A97 /* JotDiskAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F070033F1FA780B100D14DF8 /* JotDiskAssetManager.m */; };
+		F0238D561FA7965B006F2A97 /* JotImageWriteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003411FA780B100D14DF8 /* JotImageWriteOperation.m */; };
+		F0238D571FA7965B006F2A97 /* JotBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003431FA780B100D14DF8 /* JotBufferManager.m */; };
+		F0238D581FA7965B006F2A97 /* JotBufferVBO.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003451FA780B100D14DF8 /* JotBufferVBO.m */; };
+		F0238D591FA7965B006F2A97 /* JotTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003471FA780B100D14DF8 /* JotTextureCache.m */; };
+		F0238D5A1FA7965B006F2A97 /* JotTrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003491FA780B100D14DF8 /* JotTrashManager.m */; };
+		F0238D5B1FA7965B006F2A97 /* OpenGLVBO.m in Sources */ = {isa = PBXBuildFile; fileRef = F070034B1FA780B100D14DF8 /* OpenGLVBO.m */; };
+		F0238D5C1FA7965B006F2A97 /* MMMainOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F070034E1FA780B100D14DF8 /* MMMainOperationQueue.m */; };
+		F0238D5D1FA7965B006F2A97 /* JotGLColoredPointProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003631FA780B100D14DF8 /* JotGLColoredPointProgram.m */; };
+		F0238D5E1FA7965B006F2A97 /* JotGLColorlessPointProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003651FA780B100D14DF8 /* JotGLColorlessPointProgram.m */; };
+		F0238D5F1FA7965B006F2A97 /* JotGLPointProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003671FA780B100D14DF8 /* JotGLPointProgram.m */; };
+		F0238D601FA7965B006F2A97 /* JotGLQuadProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = F070036A1FA780B100D14DF8 /* JotGLQuadProgram.m */; };
+		F0238D611FA7965B006F2A97 /* JotGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003601FA780B100D14DF8 /* JotGLProgram.m */; };
+		F0238D621FA7965B006F2A97 /* AbstractJotGLFrameBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003511FA780B100D14DF8 /* AbstractJotGLFrameBuffer.m */; };
+		F0238D631FA7965B006F2A97 /* JotGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003541FA780B100D14DF8 /* JotGLContext.m */; };
+		F0238D641FA7965B006F2A97 /* JotGLLayerBackedFrameBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003561FA780B100D14DF8 /* JotGLLayerBackedFrameBuffer.m */; };
+		F0238D651FA7965B006F2A97 /* JotGLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003591FA780B100D14DF8 /* JotGLTexture.m */; };
+		F0238D661FA7965B006F2A97 /* JotGLTextureBackedFrameBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F070035C1FA780B100D14DF8 /* JotGLTextureBackedFrameBuffer.m */; };
+		F0238D671FA7965B006F2A97 /* AbstractBezierPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003701FA780B100D14DF8 /* AbstractBezierPathElement.m */; };
+		F0238D681FA7965B006F2A97 /* CurveToPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003721FA780B100D14DF8 /* CurveToPathElement.m */; };
+		F0238D691FA7965B006F2A97 /* FilledPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003741FA780B100D14DF8 /* FilledPathElement.m */; };
+		F0238D6A1FA7965B006F2A97 /* MoveToPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003761FA780B100D14DF8 /* MoveToPathElement.m */; };
+		F0238D6B1FA7965B006F2A97 /* SegmentSmoother.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003781FA780B100D14DF8 /* SegmentSmoother.m */; };
+		F0238D6C1FA7965B006F2A97 /* JotViewImmutableState.m in Sources */ = {isa = PBXBuildFile; fileRef = F070037B1FA780B100D14DF8 /* JotViewImmutableState.m */; };
+		F0238D6D1FA7965B006F2A97 /* JotViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = F070037D1FA780B100D14DF8 /* JotViewState.m */; };
+		F0238D6E1FA7965B006F2A97 /* JotViewStateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F070037F1FA780B100D14DF8 /* JotViewStateProxy.m */; };
+		F0238D6F1FA7965B006F2A97 /* JotFilledPathStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003831FA780B100D14DF8 /* JotFilledPathStroke.m */; };
+		F0238D701FA7965B006F2A97 /* JotImmutableStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003851FA780B100D14DF8 /* JotImmutableStroke.m */; };
+		F0238D711FA7965B006F2A97 /* JotStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003871FA780B100D14DF8 /* JotStroke.m */; };
+		F0238D721FA7965B006F2A97 /* JotStrokeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F070038A1FA780B100D14DF8 /* JotStrokeManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0238D731FA7965B006F2A97 /* MMWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F070038D1FA780B100D14DF8 /* MMWeakTimer.m */; };
+		F0238D741FA7965B006F2A97 /* MMWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = F070038F1FA780B100D14DF8 /* MMWeakTimerTarget.m */; };
+		F0238D751FA7965B006F2A97 /* MMDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003921FA780B100D14DF8 /* MMDataCache.m */; };
+		F0238D761FA7965B006F2A97 /* shaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = F07003981FA780CD00D14DF8 /* shaderUtil.c */; };
+		F0238D771FA796C0006F2A97 /* JotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F07003391FA780B100D14DF8 /* JotView.m */; };
+		F0238D791FA79706006F2A97 /* JotViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F070033A1FA780B100D14DF8 /* JotViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0238D7A1FA79D93006F2A97 /* highlighter.png in Resources */ = {isa = PBXBuildFile; fileRef = F070032C1FA780B100D14DF8 /* highlighter.png */; };
 		F07003051FA77ADD00D14DF8 /* coloredpoint.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F07002FE1FA77ADD00D14DF8 /* coloredpoint.vsh */; };
 		F07003061FA77ADD00D14DF8 /* quad.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F07002FF1FA77ADD00D14DF8 /* quad.fsh */; };
 		F07003071FA77ADD00D14DF8 /* stencil.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F07003001FA77ADD00D14DF8 /* stencil.fsh */; };
@@ -64,13 +115,13 @@
 		F07003CA1FA7827C00D14DF8 /* JotStrokeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F07003891FA780B100D14DF8 /* JotStrokeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F07003CB1FA7827C00D14DF8 /* MMWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F070038C1FA780B100D14DF8 /* MMWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F07003CC1FA7827C00D14DF8 /* MMWeakTimerTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F070038E1FA780B100D14DF8 /* MMWeakTimerTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F07003CD1FA7827C00D14DF8 /* JotUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F07003901FA780B100D14DF8 /* JotUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F07003CE1FA783F000D14DF8 /* PlistSaving.h in Headers */ = {isa = PBXBuildFile; fileRef = F070036C1FA780B100D14DF8 /* PlistSaving.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F07003CF1FA7847C00D14DF8 /* JotGLTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F07003371FA780B100D14DF8 /* JotGLTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F07003D01FA7849A00D14DF8 /* JotGLProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = F070035F1FA780B100D14DF8 /* JotGLProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0238D091FA78C43006F2A97 /* JotUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JotUI.h; sourceTree = SOURCE_ROOT; };
 		F07002841FA77A0400D14DF8 /* JotUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JotUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07002881FA77A0400D14DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F07002FE1FA77ADD00D14DF8 /* coloredpoint.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coloredpoint.vsh; sourceTree = "<group>"; };
@@ -183,7 +234,6 @@
 		F070038D1FA780B100D14DF8 /* MMWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMWeakTimer.m; sourceTree = "<group>"; };
 		F070038E1FA780B100D14DF8 /* MMWeakTimerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMWeakTimerTarget.h; sourceTree = "<group>"; };
 		F070038F1FA780B100D14DF8 /* MMWeakTimerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMWeakTimerTarget.m; sourceTree = "<group>"; };
-		F07003901FA780B100D14DF8 /* JotUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JotUI.h; sourceTree = "<group>"; };
 		F07003911FA780B100D14DF8 /* MMDataCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDataCache.h; sourceTree = "<group>"; };
 		F07003921FA780B100D14DF8 /* MMDataCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDataCache.m; sourceTree = "<group>"; };
 		F07003951FA780CD00D14DF8 /* JotUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JotUI-Prefix.pch"; sourceTree = "<group>"; };
@@ -203,11 +253,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0238D891FA7C041006F2A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F070027A1FA77A0400D14DF8 = {
 			isa = PBXGroup;
 			children = (
 				F07002861FA77A0400D14DF8 /* JotUI */,
 				F07002851FA77A0400D14DF8 /* Products */,
+				F0238D891FA7C041006F2A97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,9 +305,9 @@
 			children = (
 				F07003191FA780B100D14DF8 /* Categories */,
 				F070032A1FA780B100D14DF8 /* Classes */,
-				F07003901FA780B100D14DF8 /* JotUI.h */,
 				F07003911FA780B100D14DF8 /* MMDataCache.h */,
 				F07003921FA780B100D14DF8 /* MMDataCache.m */,
+				F0238D091FA78C43006F2A97 /* JotUI.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -378,11 +436,11 @@
 		F070035D1FA780B100D14DF8 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
+				F07003611FA780B100D14DF8 /* Point */,
+				F07003681FA780B100D14DF8 /* Quad */,
 				F070035E1FA780B100D14DF8 /* JotGLProgram+Private.h */,
 				F070035F1FA780B100D14DF8 /* JotGLProgram.h */,
 				F07003601FA780B100D14DF8 /* JotGLProgram.m */,
-				F07003611FA780B100D14DF8 /* Point */,
-				F07003681FA780B100D14DF8 /* Quad */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -503,7 +561,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07003CD1FA7827C00D14DF8 /* JotUI.h in Headers */,
+				F0238D0A1FA78CCD006F2A97 /* JotUI.h in Headers */,
 				F07003A91FA781D800D14DF8 /* UIImage+Resize.h in Headers */,
 				F07003AA1FA781D800D14DF8 /* UIImage+RoundedCorner.h in Headers */,
 				F07003A81FA781D800D14DF8 /* UIImage+Alpha.h in Headers */,
@@ -513,6 +571,7 @@
 				F07003B51FA7821A00D14DF8 /* JotTrashManager.h in Headers */,
 				F07003B21FA7821300D14DF8 /* JotBufferManager.h in Headers */,
 				F07003B31FA7821600D14DF8 /* JotBufferVBO.h in Headers */,
+				F0238D791FA79706006F2A97 /* JotViewDelegate.h in Headers */,
 				F07003B61FA7821C00D14DF8 /* OpenGLVBO.h in Headers */,
 				F07003CE1FA783F000D14DF8 /* PlistSaving.h in Headers */,
 				F07003AD1FA781F400D14DF8 /* JotBrushTexture.h in Headers */,
@@ -593,7 +652,7 @@
 				TargetAttributes = {
 					F07002831FA77A0400D14DF8 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -625,6 +684,7 @@
 				F07003071FA77ADD00D14DF8 /* stencil.fsh in Resources */,
 				F07003081FA77ADD00D14DF8 /* quad.vsh in Resources */,
 				F07003051FA77ADD00D14DF8 /* coloredpoint.vsh in Resources */,
+				F0238D7A1FA79D93006F2A97 /* highlighter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +695,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0238D481FA7965B006F2A97 /* NSArray+JotMapReduce.m in Sources */,
+				F0238D491FA7965B006F2A97 /* NSMutableArray+RemoveSingle.m in Sources */,
+				F0238D4A1FA7965B006F2A97 /* NSMutableSet+Extras.m in Sources */,
+				F0238D4B1FA7965B006F2A97 /* UIColor+JotHelper.m in Sources */,
+				F0238D4C1FA7965B006F2A97 /* UIImage+Alpha.m in Sources */,
+				F0238D4D1FA7965B006F2A97 /* UIImage+Resize.m in Sources */,
+				F0238D4E1FA7965B006F2A97 /* UIImage+RoundedCorner.m in Sources */,
+				F0238D4F1FA7965B006F2A97 /* UIScreen+PortraitBounds.m in Sources */,
+				F0238D501FA7965B006F2A97 /* JotBrushTexture.m in Sources */,
+				F0238D511FA7965B006F2A97 /* JotDefaultBrushTexture.m in Sources */,
+				F0238D521FA7965B006F2A97 /* JotHighlighterBrushTexture.m in Sources */,
+				F0238D531FA7965B006F2A97 /* JotSharedBrushTexture.m in Sources */,
+				F0238D541FA7965B006F2A97 /* UIImage+BrushTextures.m in Sources */,
+				F0238D551FA7965B006F2A97 /* JotDiskAssetManager.m in Sources */,
+				F0238D561FA7965B006F2A97 /* JotImageWriteOperation.m in Sources */,
+				F0238D571FA7965B006F2A97 /* JotBufferManager.m in Sources */,
+				F0238D771FA796C0006F2A97 /* JotView.m in Sources */,
+				F0238D581FA7965B006F2A97 /* JotBufferVBO.m in Sources */,
+				F0238D591FA7965B006F2A97 /* JotTextureCache.m in Sources */,
+				F0238D5A1FA7965B006F2A97 /* JotTrashManager.m in Sources */,
+				F0238D5B1FA7965B006F2A97 /* OpenGLVBO.m in Sources */,
+				F0238D5C1FA7965B006F2A97 /* MMMainOperationQueue.m in Sources */,
+				F0238D5D1FA7965B006F2A97 /* JotGLColoredPointProgram.m in Sources */,
+				F0238D5E1FA7965B006F2A97 /* JotGLColorlessPointProgram.m in Sources */,
+				F0238D5F1FA7965B006F2A97 /* JotGLPointProgram.m in Sources */,
+				F0238D601FA7965B006F2A97 /* JotGLQuadProgram.m in Sources */,
+				F0238D611FA7965B006F2A97 /* JotGLProgram.m in Sources */,
+				F0238D621FA7965B006F2A97 /* AbstractJotGLFrameBuffer.m in Sources */,
+				F0238D631FA7965B006F2A97 /* JotGLContext.m in Sources */,
+				F0238D641FA7965B006F2A97 /* JotGLLayerBackedFrameBuffer.m in Sources */,
+				F0238D651FA7965B006F2A97 /* JotGLTexture.m in Sources */,
+				F0238D661FA7965B006F2A97 /* JotGLTextureBackedFrameBuffer.m in Sources */,
+				F0238D671FA7965B006F2A97 /* AbstractBezierPathElement.m in Sources */,
+				F0238D681FA7965B006F2A97 /* CurveToPathElement.m in Sources */,
+				F0238D691FA7965B006F2A97 /* FilledPathElement.m in Sources */,
+				F0238D6A1FA7965B006F2A97 /* MoveToPathElement.m in Sources */,
+				F0238D6B1FA7965B006F2A97 /* SegmentSmoother.m in Sources */,
+				F0238D6C1FA7965B006F2A97 /* JotViewImmutableState.m in Sources */,
+				F0238D6D1FA7965B006F2A97 /* JotViewState.m in Sources */,
+				F0238D6E1FA7965B006F2A97 /* JotViewStateProxy.m in Sources */,
+				F0238D6F1FA7965B006F2A97 /* JotFilledPathStroke.m in Sources */,
+				F0238D701FA7965B006F2A97 /* JotImmutableStroke.m in Sources */,
+				F0238D711FA7965B006F2A97 /* JotStroke.m in Sources */,
+				F0238D721FA7965B006F2A97 /* JotStrokeManager.m in Sources */,
+				F0238D731FA7965B006F2A97 /* MMWeakTimer.m in Sources */,
+				F0238D741FA7965B006F2A97 /* MMWeakTimerTarget.m in Sources */,
+				F0238D751FA7965B006F2A97 /* MMDataCache.m in Sources */,
+				F0238D761FA7965B006F2A97 /* shaderUtil.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +778,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -690,10 +797,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -728,7 +833,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -742,10 +846,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -754,18 +856,20 @@
 		F070028D1FA77A0400D14DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TS6V23BE8W;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/JotUI/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.generic.JotUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -774,10 +878,9 @@
 		F070028E1FA77A0400D14DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TS6V23BE8W;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -786,8 +889,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.generic.JotUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};

@@ -9,11 +9,10 @@
 #ifndef JotUI_h
 #define JotUI_h
 
-
 #define CheckMainThread                              \
-    if (![NSThread isMainThread]) {                  \
-        NSAssert(NO, @"needs to be on main thread"); \
-    }
+if (![NSThread isMainThread]) {                  \
+NSAssert(NO, @"needs to be on main thread"); \
+}
 
 #define kJotEnableCacheStats NO
 
@@ -27,27 +26,27 @@
 
 #import <Foundation/Foundation.h>
 
-#import "JotView.h"
-#import "JotViewDelegate.h"
-#import "MoveToPathElement.h"
-#import "CurveToPathElement.h"
-#import "JotStrokeManager.h"
-#import "JotGLTextureBackedFrameBuffer.h"
-#import "JotViewImmutableState.h"
-#import "JotGLContext.h"
-#import "JotViewStateProxy.h"
-#import "JotViewStateProxyDelegate.h"
-#import "NSArray+JotMapReduce.h"
-#import "JotTrashManager.h"
-#import "UIImage+Resize.h"
-#import "JotDiskAssetManager.h"
-#import "UIScreen+PortraitBounds.h"
-#import "MMWeakTimer.h"
-#import "MMMainOperationQueue.h"
-#import "JotGLProgram.h"
-#import "JotBrushTexture.h"
-#import "JotDefaultBrushTexture.h"
-#import "JotHighlighterBrushTexture.h"
+#import <JotUI/JotView.h>
+#import <JotUI/JotViewDelegate.h>
+#import <JotUI/MoveToPathElement.h>
+#import <JotUI/CurveToPathElement.h>
+#import <JotUI/JotStrokeManager.h>
+#import <JotUI/JotGLTextureBackedFrameBuffer.h>
+#import <JotUI/JotViewImmutableState.h>
+#import <JotUI/JotGLContext.h>
+#import <JotUI/JotViewStateProxy.h>
+#import <JotUI/JotViewStateProxyDelegate.h>
+#import <JotUI/NSArray+JotMapReduce.h>
+#import <JotUI/JotTrashManager.h>
+#import <JotUI/UIImage+Resize.h>
+#import <JotUI/JotDiskAssetManager.h>
+#import <JotUI/UIScreen+PortraitBounds.h>
+#import <JotUI/MMWeakTimer.h>
+#import <JotUI/MMMainOperationQueue.h>
+#import <JotUI/JotGLProgram.h>
+#import <JotUI/JotBrushTexture.h>
+#import <JotUI/JotDefaultBrushTexture.h>
+#import <JotUI/JotHighlighterBrushTexture.h>
 
 typedef struct {
     GLfloat x;
